@@ -1,0 +1,28 @@
+{
+  "name": "fake-proxy",
+  "version": "0.1.0",
+  "description": "Proxy without notifying recipient about sender.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/001.http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aisnoek/node_fake-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "fake"
+  ],
+  "author": "AISnoek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisnoek/node_fake-proxy/issues"
+  },
+  "homepage": "https://github.com/aisnoek/node_fake-proxy",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "qs": "^5.1.0"
+  }
+}
