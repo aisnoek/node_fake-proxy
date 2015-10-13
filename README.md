@@ -13,7 +13,7 @@ Installation
 Install using `npm`:
 
 ``` bash
-$ npm install proxy
+$ npm install fake-proxy
 ```
 
 Or clone the repository manually.
