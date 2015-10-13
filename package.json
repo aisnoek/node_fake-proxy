@@ -4,7 +4,7 @@
   "description": "Proxy without notifying recipient about sender.",
   "main": "index.js",
   "scripts": {
-    "test": "test/001.http.js"
+    "test": "example/001.http.js"
   },
   "repository": {
     "type": "git",

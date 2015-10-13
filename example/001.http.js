@@ -27,7 +27,7 @@ proxy({
 	recipient: {
 		host: 'localhost',
 		port: port,
-		protocol: http,
+		protocol: 'http',
 		path: '/test-responder'
 	}
 });

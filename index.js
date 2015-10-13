@@ -16,7 +16,7 @@ var bodyParser = require('body-parser');
 /**
  * Usage:
  *
- * fake-proxy({
+ * fake_proxy({
  *   proxy: {
  *   	app: <instance of express>,
  *   	path: '/proxy'
@@ -61,8 +61,14 @@ module.exports = function (options) {
 			port: recipient.port,
 			method: req.method,
 			path: recipient.path + '?' + qs.stringify(req.query),
-			headers: req.headers
+			headers: {
+				'content-length': stringify(body).length
+			}
 		};
+
+		if (typeof req.headers['content-type'] != 'undefined') {
+			recipient_options.headers['content-type'] = req.headers['content-type'];
+		}
 
 		// require('http') || require('https')
 		var protocol = (typeof recipient.protocol == "object")
