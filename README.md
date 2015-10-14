@@ -3,14 +3,15 @@ Fake proxy
 
 This module rather is a 'forwarder of requests' than it being a standard "HTTP Proxy".
 
-Literaly forwarding requests became necessary when an online service did not offer an ip-address, or even
+Literally forwarding requests became necessary when an online service did not offer an ip-address, or even
 a fixed range, to white-list. And as standard "HTTP Proxy" appeared to be forwarding to much information
 of the actual sender and therefor again resulting in a denial of access this 'fake-proxy' was created.
 
 Installation
 ------------
 
-Install using `npm`:
+Install using npm:
+**Coming soon!**
 
 ``` bash
 $ npm install fake-proxy
