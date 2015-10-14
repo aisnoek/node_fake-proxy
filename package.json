@@ -12,9 +12,10 @@
   },
   "keywords": [
     "proxy",
+    "forward",
     "fake"
   ],
-  "author": "AISnoek",
+  "author": "aisnoek",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aisnoek/node_fake-proxy/issues"

@@ -11,7 +11,6 @@ Installation
 ------------
 
 Install using npm:
-**Coming soon!**
 
 ``` bash
 $ npm install fake-proxy
